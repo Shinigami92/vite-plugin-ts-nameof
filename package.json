@@ -26,7 +26,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint --ext .ts src"
   },
   "dependencies": {
     "ts-nameof": "^5.0.0"
