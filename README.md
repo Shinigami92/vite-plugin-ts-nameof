@@ -10,7 +10,13 @@ Give `vite` the ability to resolve `nameof` calls used in TypeScript.
 
 ## Usage
 
-1. Install as dev dependency
+1. Install as `devDependencies`
+
+   ```bash
+   npm install -D vite-ts-nameof
+   # or
+   yarn add -D vite-ts-nameof
+   ```
 
 2. Inject `vite-ts-nameof` using the `vite.config.ts` module
 
@@ -26,4 +32,15 @@ Give `vite` the ability to resolve `nameof` calls used in TypeScript.
        vue(),
      ],
    });
+   ```
+
+3. Add `ts-nameof.d.ts` to your `tsconfig.json`
+
+   ```jsonc
+   {
+     // "compilerOptions"
+     // "include"
+     // ...
+     "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"]
+   }
    ```
