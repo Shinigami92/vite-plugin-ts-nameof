@@ -1,12 +1,26 @@
-# vite-ts-nameof
+<h1 align="center">vite-ts-nameof</h1>
 
-[![npm](https://img.shields.io/npm/v/vite-ts-nameof.svg)](https://www.npmjs.com/package/vite-ts-nameof)
-[![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+<p align="center">
+  <a href="https://github.com/Shinigami92/vite-ts-nameof/blob/main/LICENSE">
+    <img alt="license: MIT" src="https://img.shields.io/github/license/Shinigami92/vite-ts-nameof.svg?style=flat-square">
+  </a>
+  <a href="https://www.npmjs.com/package/vite-ts-nameof" target="_blank">
+    <img alt="NPM package" src="https://img.shields.io/npm/v/vite-ts-nameof.svg?style=flat-square">
+  </a>
+  <a href="https://www.npmjs.com/package/vite-ts-nameof" target="_blank">
+    <img alt="downloads" src="https://img.shields.io/npm/dt/vite-ts-nameof.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/prettier/prettier" target="_blank">
+    <img alt="Code style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/Shinigami92/vite-ts-nameof/actions?query=branch%3Amain+workflow%3ACI">
+    <img alt="Build Status" src="https://github.com/Shinigami92/vite-ts-nameof/workflows/CI/badge.svg?branch=main">
+  </a>
+</p>
 
-Give `vite` the ability to resolve `nameof` calls used in TypeScript.
-
-- `vite`: https://github.com/vitejs/vite
-- `ts-nameof`: https://github.com/dsherret/ts-nameof
+<p align="center">
+  Give <a href="https://github.com/vitejs/vite" target="_blank">Vite</a> the ability to resolve <a href="https://github.com/dsherret/ts-nameof" target="_blank">nameof</a> calls in TypeScript.
+</p>
 
 ## Usage
 
