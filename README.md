@@ -13,8 +13,8 @@
   <a href="https://github.com/prettier/prettier" target="_blank">
     <img alt="Code style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
-  <a href="https://github.com/Shinigami92/vite-ts-nameof/actions?query=branch%3Amain+workflow%3ACI">
-    <img alt="Build Status" src="https://github.com/Shinigami92/vite-ts-nameof/workflows/CI/badge.svg?branch=main">
+  <a href="https://github.com/Shinigami92/vite-ts-nameof/actions/workflows/ci.yml">
+    <img alt="Build Status" src="https://github.com/Shinigami92/vite-ts-nameof/actions/workflows/ci.yml/badge.svg?branch=main">
   </a>
 </p>
 
