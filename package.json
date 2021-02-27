@@ -1,12 +1,15 @@
 {
   "name": "vite-ts-nameof",
   "version": "1.0.0",
-  "description": "Vite ts-nameof",
+  "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
   "main": "lib/index.js",
   "keywords": [
     "vite",
+    "vite-plugin",
     "ts-nameof",
-    "nameof"
+    "nameof",
+    "plugin",
+    "typescript"
   ],
   "author": {
     "name": "Christopher Quadflieg",
@@ -25,9 +28,11 @@
     "tsconfig.json"
   ],
   "scripts": {
+    "clean": "rimraf lib yarn.lock node_modules",
     "build": "tsc",
     "format": "prettier --write .",
-    "lint": "eslint --ext .ts src"
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn clean && yarn install --cache-folder .yarn && yarn build"
   },
   "dependencies": {
     "ts-nameof": "^5.0.0"
@@ -41,8 +46,9 @@
     "eslint-plugin-prettier": "~3.3.1",
     "prettier": "2.2.1",
     "prettier-plugin-organize-imports": "~1.1.1",
+    "rimraf": "~3.0.2",
     "typescript": "~4.2.2",
-    "vite": "~2.0.3"
+    "vite": "~2.0.4"
   },
   "peerDependencies": {
     "vite": "^2.0.0"
