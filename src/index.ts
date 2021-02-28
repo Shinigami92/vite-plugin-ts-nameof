@@ -2,7 +2,7 @@ import tsNameof from 'ts-nameof';
 import { Plugin } from 'vite';
 
 export default (): Plugin => ({
-  name: 'vite:ts-nameof',
+  name: 'vite-plugin-ts-nameof',
   enforce: 'pre',
   transform(code, id) {
     if ((id.includes('.ts') || id.includes('.vue')) && code.includes('nameof')) {
