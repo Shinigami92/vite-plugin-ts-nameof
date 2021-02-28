@@ -13,6 +13,9 @@
   <a href="https://github.com/prettier/prettier" target="_blank">
     <img alt="Code style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
+  <a href="https://github.com/vitejs/awesome-vite#transformers" target="_blank">
+    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
+  </a>
   <a href="https://github.com/Shinigami92/vite-plugin-ts-nameof/actions/workflows/ci.yml">
     <img alt="Build Status" src="https://github.com/Shinigami92/vite-plugin-ts-nameof/actions/workflows/ci.yml/badge.svg?branch=main">
   </a>
@@ -55,3 +58,7 @@
      "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"]
    }
    ```
+
+## More Awesome Vite Plugins
+
+Can be found here: [Awesome Vite.js](https://github.com/vitejs/awesome-vite#readme)
