@@ -476,10 +476,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-ts-nameof@^1.0.0:
+vite-plugin-ts-nameof@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vite-ts-nameof/-/vite-ts-nameof-1.0.0.tgz#c7a1f8388b3f990545b5a6c9a74c9edca7994943"
-  integrity sha512-4rMa+mTIFtn74Ofmj9mEdTj6wYTvHmOfRERrKLOwMHnir+j60zkHk4FSZenQEYdB96KnAXLpehOZTH+iIIaFGw==
+  resolved "https://registry.yarnpkg.com/vite-plugin-ts-nameof/-/vite-plugin-ts-nameof-1.0.0.tgz#245d333910900186327142888aef130fa057a9fb"
+  integrity sha512-SoVVkZ2CjYKskgzQODYEsHxKnnoRHJJXIUd54puc0p8mcG/iP+j+78vmoMWCS/JDIAYIZqu0H29ytCj8LuFUMg==
   dependencies:
     ts-nameof "^5.0.0"
 
