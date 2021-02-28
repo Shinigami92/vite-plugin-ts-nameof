@@ -1,20 +1,20 @@
-<h1 align="center">vite-ts-nameof</h1>
+<h1 align="center">vite-plugin-ts-nameof</h1>
 
 <p align="center">
-  <a href="https://github.com/Shinigami92/vite-ts-nameof/blob/main/LICENSE">
-    <img alt="license: MIT" src="https://img.shields.io/github/license/Shinigami92/vite-ts-nameof.svg?style=flat-square">
+  <a href="https://github.com/Shinigami92/vite-plugin-ts-nameof/blob/main/LICENSE">
+    <img alt="license: MIT" src="https://img.shields.io/github/license/Shinigami92/vite-plugin-ts-nameof.svg?style=flat-square">
   </a>
-  <a href="https://www.npmjs.com/package/vite-ts-nameof" target="_blank">
-    <img alt="NPM package" src="https://img.shields.io/npm/v/vite-ts-nameof.svg?style=flat-square">
+  <a href="https://www.npmjs.com/package/vite-plugin-ts-nameof" target="_blank">
+    <img alt="NPM package" src="https://img.shields.io/npm/v/vite-plugin-ts-nameof.svg?style=flat-square">
   </a>
-  <a href="https://www.npmjs.com/package/vite-ts-nameof" target="_blank">
-    <img alt="downloads" src="https://img.shields.io/npm/dt/vite-ts-nameof.svg?style=flat-square">
+  <a href="https://www.npmjs.com/package/vite-plugin-ts-nameof" target="_blank">
+    <img alt="downloads" src="https://img.shields.io/npm/dt/vite-plugin-ts-nameof.svg?style=flat-square">
   </a>
   <a href="https://github.com/prettier/prettier" target="_blank">
     <img alt="Code style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
-  <a href="https://github.com/Shinigami92/vite-ts-nameof/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://github.com/Shinigami92/vite-ts-nameof/actions/workflows/ci.yml/badge.svg?branch=main">
+  <a href="https://github.com/Shinigami92/vite-plugin-ts-nameof/actions/workflows/ci.yml">
+    <img alt="Build Status" src="https://github.com/Shinigami92/vite-plugin-ts-nameof/actions/workflows/ci.yml/badge.svg?branch=main">
   </a>
 </p>
 
@@ -27,24 +27,21 @@
 1. Install as `devDependencies`
 
    ```bash
-   npm install -D vite-ts-nameof
+   npm install -D vite-plugin-ts-nameof
    # or
-   yarn add -D vite-ts-nameof
+   yarn add -D vite-plugin-ts-nameof
    ```
 
-2. Inject `vite-ts-nameof` using the `vite.config.ts` module
+2. Inject `vite-plugin-ts-nameof` using the `vite.config.ts` module
 
    ```ts
-   import vue from "@vitejs/plugin-vue";
-   import { defineConfig } from "vite";
-   import tsNameof from "vite-ts-nameof";
+   import vue from '@vitejs/plugin-vue';
+   import { defineConfig } from 'vite';
+   import tsNameof from 'vite-plugin-ts-nameof';
 
    // https://vitejs.dev/config/
    export default defineConfig({
-     plugins: [
-       tsNameof(),
-       vue(),
-     ],
+     plugins: [tsNameof(), vue()],
    });
    ```
 

@@ -1,5 +1,5 @@
 {
-  "name": "vite-ts-nameof",
+  "name": "vite-plugin-ts-nameof",
   "version": "1.0.0",
   "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
   "main": "lib/index.js",
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shinigami92/vite-ts-nameof.git"
+    "url": "https://github.com/Shinigami92/vite-plugin-ts-nameof.git"
   },
-  "bugs": "https://github.com/Shinigami92/vite-ts-nameof/issues",
+  "bugs": "https://github.com/Shinigami92/vite-plugin-ts-nameof/issues",
   "license": "MIT",
   "files": [
     "lib",
