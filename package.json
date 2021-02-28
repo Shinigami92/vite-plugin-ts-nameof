@@ -9,7 +9,9 @@
     "ts-nameof",
     "nameof",
     "plugin",
-    "typescript"
+    "typescript",
+    "vitejs",
+    "awesome"
   ],
   "author": {
     "name": "Christopher Quadflieg",
