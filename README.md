@@ -30,9 +30,9 @@
 1. Install as `devDependencies`
 
    ```bash
-   npm install -D vite-plugin-ts-nameof
+   npm install --save-dev vite-plugin-ts-nameof
    # or
-   yarn add -D vite-plugin-ts-nameof
+   yarn add --dev vite-plugin-ts-nameof
    ```
 
 2. Inject `vite-plugin-ts-nameof` using the `vite.config.ts` module
