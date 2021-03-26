@@ -2,11 +2,11 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: "/"
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
     labels:
-      - "dependencies"
+      - 'dependencies'
     reviewers:
-      - "Shinigami92"
+      - 'Shinigami92'
     versioning-strategy: increase
