@@ -1,5 +1,5 @@
 import tsNameof from 'ts-nameof';
-import { Plugin } from 'vite';
+import type { Plugin } from 'vite';
 
 export default (): Plugin => ({
   name: 'vite-plugin-ts-nameof',

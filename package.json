@@ -33,7 +33,7 @@
     "clean": "rimraf lib yarn.lock node_modules",
     "build": "tsc",
     "format": "prettier --write .",
-    "lint": "eslint --ext .ts src",
+    "lint": "eslint .",
     "prepublishOnly": "yarn clean && yarn install --cache-folder .yarn && yarn build"
   },
   "dependencies": {
@@ -45,7 +45,7 @@
     "@typescript-eslint/parser": "~4.19.0",
     "eslint": "~7.22.0",
     "eslint-config-prettier": "~8.1.0",
-    "eslint-define-config": "~1.0.2",
+    "eslint-define-config": "~1.0.3",
     "eslint-plugin-prettier": "~3.3.1",
     "np": "~7.4.0",
     "prettier": "2.2.1",
