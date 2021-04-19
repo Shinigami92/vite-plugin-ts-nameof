@@ -821,10 +821,10 @@ eslint-define-config@~1.0.7:
   resolved "https://registry.yarnpkg.com/eslint-define-config/-/eslint-define-config-1.0.7.tgz#784ae5cc450492b0a8f37753d54f38fd5ac158fb"
   integrity sha512-aPsytB55H0gNBJb5ZHCGdJgTS0g7vaOVjyvaZYlhDI3yYB1Y4F5k6VV5M7+0FOuD61NOm0ZT72lXOWoah5rCHw==
 
-eslint-plugin-prettier@~3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
-  integrity sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
+eslint-plugin-prettier@~3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
+  integrity sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
