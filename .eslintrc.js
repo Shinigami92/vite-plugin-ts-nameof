@@ -2,7 +2,7 @@
 const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
-  ignorePatterns: ['.eslintrc.js', 'example/'],
+  ignorePatterns: ['.eslintrc.js', 'lib/', 'example/'],
   env: {
     es6: true,
     node: true,

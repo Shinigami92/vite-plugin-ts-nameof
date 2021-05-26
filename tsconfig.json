@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "lib": ["ESNext"],
     "declaration": true,
+    "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "lib",
     "rootDir": "src"
