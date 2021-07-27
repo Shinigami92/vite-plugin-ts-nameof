@@ -12,6 +12,9 @@ export default (): Plugin => ({
       }
     }
 
-    return code;
+    return {
+      code,
+      map: null, // Prevent missing sourcemap warning
+    };
   },
 });
