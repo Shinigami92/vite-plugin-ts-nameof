@@ -1,4 +1,6 @@
 .github/ISSUE_TEMPLATE/
+.yarn/
+.pnp.cjs
 coverage/
 lib/
 example/
