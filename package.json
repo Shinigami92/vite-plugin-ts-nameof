@@ -30,11 +30,11 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "clean": "rimraf lib yarn.lock node_modules",
+    "clean": "rimraf lib pnpm-lock.yaml node_modules",
     "build": "tsc",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "prepublishOnly": "yarn clean && yarn install && yarn build"
+    "prepublishOnly": "pnpm run clean && pnpm install && yarn run build"
   },
   "dependencies": {
     "ts-nameof": "^5.0.0"
@@ -47,7 +47,6 @@
     "eslint-config-prettier": "~8.3.0",
     "eslint-define-config": "~1.1.1",
     "eslint-plugin-prettier": "~4.0.0",
-    "np": "~7.5.0",
     "prettier": "2.4.1",
     "prettier-plugin-organize-imports": "~2.3.4",
     "rimraf": "~3.0.2",
