@@ -5,7 +5,7 @@ export default (): Plugin => ({
   name: 'vite-plugin-ts-nameof',
   enforce: 'pre',
   transform(code, id) {
-    if ((id.includes('.ts') || id.includes('.vue')) && code.includes('nameof')) {
+    if (/\.(vue|[mc]?ts)/i.test(id) && code.includes('nameof')) {
       const { fileText, replaced } = tsNameof.replaceInText(id, code);
       if (replaced) {
         code = fileText ?? code;
