@@ -1,6 +1,14 @@
 # Next
 
-[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.0.2...main)
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.1.0...main)
+
+# 1.1.0
+
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.0.2...1.1.0)
+
+- Process also `.mts` and `.cts` files ([0eda033])
+
+[0eda033]: https://github.com/Shinigami92/vite-plugin-ts-nameof/commit/0eda033145446dbde693e8c3ede5eed2c1c53697
 
 # 1.0.2
 
