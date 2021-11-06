@@ -10,10 +10,10 @@
     "vue": "^3.2.19"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
-    "@vue/compiler-sfc": "^3.2.19",
-    "typescript": "^4.4.3",
-    "vite": "^2.6.3",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vue/compiler-sfc": "^3.2.21",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.13",
     "vite-plugin-ts-nameof": "^1.1.0"
   }
 }
