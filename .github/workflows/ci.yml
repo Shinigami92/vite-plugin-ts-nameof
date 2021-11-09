@@ -47,7 +47,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    name: 'Lint: node-14, ubuntu-latest'
+    name: 'Lint: node-16, ubuntu-latest'
     steps:
       - uses: actions/checkout@v2
         with:
@@ -58,10 +58,10 @@ jobs:
         with:
           version: 6
 
-      - name: Set node version to 14
+      - name: Set node version to 16
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
           cache: 'pnpm'
 
       - name: Prepare
@@ -72,7 +72,7 @@ jobs:
 
   audit:
     runs-on: ubuntu-latest
-    name: 'Audit: node-14, ubuntu-latest'
+    name: 'Audit: node-16, ubuntu-latest'
     steps:
       - uses: actions/checkout@v2
         with:
@@ -83,10 +83,10 @@ jobs:
         with:
           version: 6
 
-      - name: Set node version to 14
+      - name: Set node version to 16
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
           cache: 'pnpm'
 
       - name: Prepare
