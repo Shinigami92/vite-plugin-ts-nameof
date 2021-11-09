@@ -6,6 +6,8 @@ rm -Rf dist
 rm -Rf node_modules
 rm pnpm-lock.yaml
 
+set -e
+
 # Prepare
 pnpm install
 pnpm run lint
@@ -15,7 +17,7 @@ pnpm run build
 # Publish
 npm publish --dry-run
 
-set +x
+set +ex
 
 echo
 echo "If everything looks okay, use 'npm publish --access public'"
