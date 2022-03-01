@@ -34,7 +34,7 @@
     "build": "tsc",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "prepublishOnly": "pnpm run clean && pnpm install && yarn run build"
+    "prepublishOnly": "pnpm run clean && pnpm install && pnpm run build"
   },
   "dependencies": {
     "ts-nameof": "^5.0.0"
