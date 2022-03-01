@@ -7,13 +7,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.26"
+    "vue": "^3.2.31"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.0",
-    "@vue/compiler-sfc": "^3.2.30",
-    "typescript": "^4.5.5",
-    "vite": "^2.8.0",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/compiler-sfc": "^3.2.31",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.5",
     "vite-plugin-ts-nameof": "^1.1.0"
   }
 }
