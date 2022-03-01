@@ -1,8 +1,13 @@
 // @ts-check
 const { defineConfig } = require('eslint-define-config');
+const { readGitignoreFiles } = require('eslint-gitignore');
 
 module.exports = defineConfig({
-  ignorePatterns: ['.eslintrc.js', 'lib/', 'example/'],
+  ignorePatterns: [
+    ...readGitignoreFiles(),
+    '.eslintrc.js', // Skip self linting
+  ],
+  root: true,
   env: {
     es6: true,
     node: true,
@@ -27,12 +32,19 @@ module.exports = defineConfig({
     semi: ['error', 'always'],
 
     '@typescript-eslint/ban-ts-comment': 'off',
-    '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
-    '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1, ignoredNodes: ['MemberExpression'] }],
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      { allowExpressions: true },
+    ],
     '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/member-ordering': 'warn',
+    '@typescript-eslint/member-ordering': 'off',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { prefer: 'type-imports' },
+    ],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
@@ -40,6 +52,9 @@ module.exports = defineConfig({
     '@typescript-eslint/prefer-optional-chain': 'warn',
     '@typescript-eslint/prefer-readonly': ['warn'],
     '@typescript-eslint/restrict-template-expressions': 'off',
-    '@typescript-eslint/typedef': ['warn', { memberVariableDeclaration: true, variableDeclaration: true }],
+    '@typescript-eslint/typedef': [
+      'warn',
+      { memberVariableDeclaration: true, variableDeclaration: true },
+    ],
   },
 });
