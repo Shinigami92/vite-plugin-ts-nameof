@@ -8,16 +8,39 @@
   "packageRules": [
     {
       "groupName": "typescript-eslint",
+      "matchDepTypes": ["devDependencies"],
       "matchPackagePrefixes": ["@typescript-eslint/"]
+    },
+    {
+      "groupName": "vitest",
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePrefixes": ["@vitest/ui", "vitest"]
+    },
+    {
+      "groupName": "typescript",
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePrefixes": ["typescript"]
+    },
+    {
+      "groupName": "prettier",
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePrefixes": ["prettier", "@types/prettier"]
+    },
+    {
+      "groupName": "dependencies",
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "groupName": "peerDependencies",
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "groupName": "node",
+      "matchPackagePrefixes": ["@types/node", "node", "npm"],
+      "rangeStrategy": "bump"
     }
-  ],
-  "ignoreDeps": [
-    // manually bumping
-    "@types/node",
-    "node",
-    "npm",
-    "prettier",
-    "typescript"
   ],
   "vulnerabilityAlerts": {
     "labels": ["security"],
