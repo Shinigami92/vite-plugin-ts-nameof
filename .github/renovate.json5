@@ -27,19 +27,24 @@
       "matchPackagePrefixes": ["prettier", "@types/prettier"]
     },
     {
+      "groupName": "node",
+      "matchPackagePrefixes": ["@types/node", "node", "npm"],
+      "rangeStrategy": "bump"
+    },
+    {
       "groupName": "dependencies",
       "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "groupName": "devDependencies",
+      "matchDepTypes": ["devDependencies"],
       "rangeStrategy": "bump"
     },
     {
       "groupName": "peerDependencies",
       "matchDepTypes": ["peerDependencies"],
       "rangeStrategy": "widen"
-    },
-    {
-      "groupName": "node",
-      "matchPackagePrefixes": ["@types/node", "node", "npm"],
-      "rangeStrategy": "bump"
     }
   ],
   "vulnerabilityAlerts": {
