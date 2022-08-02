@@ -6,7 +6,7 @@
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "declaration": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
