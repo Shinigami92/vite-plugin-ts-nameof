@@ -1,6 +1,14 @@
 # Next
 
-[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.2.0...main)
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.2.1...main)
+
+# 1.2.1
+
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.2.0...1.2.1)
+
+- Add support for Vite v4 ([#95])
+
+[#95]: https://github.com/Shinigami92/vite-plugin-ts-nameof/issues/95
 
 # 1.2.0
 
