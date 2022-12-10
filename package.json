@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ts-nameof",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
   "main": "lib/index.js",
   "keywords": [
