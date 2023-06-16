@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ts-nameof",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
   "scripts": {
     "clean": "rimraf .eslintcache dist pnpm-lock.yaml node_modules",
