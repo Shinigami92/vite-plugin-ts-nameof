@@ -1,7 +1,10 @@
 .github/ISSUE_TEMPLATE/
 .yarn/
-.pnp.cjs
-pnpm-lock.yaml
 coverage/
+dist/
 lib/
 example/
+.eslintcache
+.pnp.cjs
+CHANGELOG.md
+pnpm-lock.yaml

@@ -1,18 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "strict": true,
-    "sourceMap": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
-    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
     "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
-    "outDir": "lib",
-    "rootDir": "src"
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+    "noUncheckedIndexedAccess": true
+  }
 }

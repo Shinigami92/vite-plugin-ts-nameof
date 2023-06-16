@@ -5,14 +5,15 @@ const { readGitignoreFiles } = require('eslint-gitignore');
 module.exports = defineConfig({
   ignorePatterns: [
     ...readGitignoreFiles(),
-    'example', // Skip self linting
-    '.eslintrc.js', // Skip self linting
+    'example', // Skip linting examples
+    '.eslintrc.cjs', // Skip self linting
   ],
   root: true,
   env: {
     es6: true,
     node: true,
   },
+  reportUnusedDisableDirectives: true,
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -21,7 +22,8 @@ module.exports = defineConfig({
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.lint.json'],
+    project: 'tsconfig.json',
+    sourceType: 'module',
     warnOnUnsupportedTypeScriptVersion: false,
   },
   plugins: ['@typescript-eslint', 'prettier'],
