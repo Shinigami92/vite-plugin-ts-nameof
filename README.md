@@ -25,6 +25,15 @@
   Give <a href="https://github.com/vitejs/vite" target="_blank">Vite</a> the ability to resolve <a href="https://github.com/dsherret/ts-nameof" target="_blank">nameof</a> calls in TypeScript.
 </p>
 
+## :warning: Warning :warning:
+
+[Don't use `ts-nameof` anymore](https://github.com/dsherret/ts-nameof/issues/121)
+
+Try to use [ts-keyof](https://www.npmjs.com/package/ts-keyof) instead.
+
+This plugin will not work anymore with TypeScript v5+.  
+You will see errors like `ts.createliteral is not a function`.
+
 ## Usage
 
 1. Install as `devDependencies`
