@@ -1,6 +1,20 @@
 # Next
 
-[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.2.1...main)
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/2.0.0...main)
+
+# 2.0.0
+
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/1.2.1...2.0.0)
+
+- Add support for esm ([#100])
+- Upgrade to TypeScript v4.9 ([#100])
+
+## Note
+
+Due to https://github.com/dsherret/ts-nameof/issues/121, this plugin will not work anymore with TypeScript v5+.  
+Please try to use [ts-keyof](https://www.npmjs.com/package/ts-keyof) instead.
+
+[#100]: https://github.com/Shinigami92/vite-plugin-ts-nameof/pull/100
 
 # 1.2.1
 
