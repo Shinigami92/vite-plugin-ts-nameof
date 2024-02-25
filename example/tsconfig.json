@@ -12,5 +12,5 @@
     "types": ["vite/client"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"]
+  "files": ["./node_modules/@typescript-nameof/types/index.d.cts"]
 }
