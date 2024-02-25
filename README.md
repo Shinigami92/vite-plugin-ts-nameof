@@ -50,7 +50,7 @@
    });
    ```
 
-3. Add `ts-nameof.d.ts` to your `tsconfig.json`
+3. Add `@typescript-nameof/types/index.d.cts` to your `tsconfig.json`
 
    ```jsonc
    {
