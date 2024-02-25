@@ -66,7 +66,7 @@ You will see errors like `ts.createliteral is not a function`.
      // "compilerOptions"
      // "include"
      // ...
-     "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"]
+     "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"],
    }
    ```
 
