@@ -10,8 +10,8 @@ assignees: ''
 
 | Tool                  | Version                 |
 | --------------------- | ----------------------- |
-| vite-plugin-ts-nameof | v1.x.x                  |
-| Vite                  | v2.x.x                  |
+| vite-plugin-ts-nameof | v3.x.x                  |
+| Vite                  | v5.x.x                  |
 | Node                  | vx.x.x                  |
 | OS                    | win,linux,mac           |
 
