@@ -22,28 +22,19 @@
 </p>
 
 <p align="center">
-  Give <a href="https://github.com/vitejs/vite" target="_blank">Vite</a> the ability to resolve <a href="https://github.com/dsherret/ts-nameof" target="_blank">nameof</a> calls in TypeScript.
+  Give <a href="https://github.com/vitejs/vite" target="_blank">Vite</a> the ability to resolve <a href="https://github.com/typescript-nameof/nameof" target="_blank">nameof</a> calls in TypeScript.
 </p>
-
-## :warning: Warning :warning:
-
-[Don't use `ts-nameof` anymore](https://github.com/dsherret/ts-nameof/issues/121)
-
-Try to use [ts-keyof](https://www.npmjs.com/package/ts-keyof) instead.
-
-This plugin will not work anymore with TypeScript v5+.  
-You will see errors like `ts.createliteral is not a function`.
 
 ## Usage
 
 1. Install as `devDependencies`
 
    ```bash
-   npm add --save-dev vite-plugin-ts-nameof
+   npm add --save-dev vite-plugin-ts-nameof @typescript-nameof/types @typescript-nameof/common-types
    # or
-   yarn add --dev vite-plugin-ts-nameof
+   pnpm add --save-dev vite-plugin-ts-nameof @typescript-nameof/types @typescript-nameof/common-types
    # or
-   pnpm add --save-dev vite-plugin-ts-nameof
+   yarn add --dev vite-plugin-ts-nameof @typescript-nameof/types @typescript-nameof/common-types
    ```
 
 2. Inject `vite-plugin-ts-nameof` using the `vite.config.ts` module
@@ -59,14 +50,14 @@ You will see errors like `ts.createliteral is not a function`.
    });
    ```
 
-3. Add `ts-nameof.d.ts` to your `tsconfig.json`
+3. Add `@typescript-nameof/types/index.d.cts` to your `tsconfig.json`
 
    ```jsonc
    {
      // "compilerOptions"
      // "include"
      // ...
-     "files": ["./node_modules/ts-nameof/ts-nameof.d.ts"]
+     "files": ["./node_modules/@typescript-nameof/types/index.d.cts"],
    }
    ```
 

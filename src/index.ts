@@ -1,4 +1,4 @@
-import tsNameof from 'ts-nameof';
+import tsNameof from '@typescript-nameof/nameof';
 import type { Plugin } from 'vite';
 
 export default (): Plugin => ({

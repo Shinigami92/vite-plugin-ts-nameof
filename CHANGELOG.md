@@ -1,6 +1,14 @@
 # Next
 
-[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/2.0.0...main)
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/3.0.0...main)
+
+# 3.0.0
+
+[diff](https://github.com/Shinigami92/vite-plugin-ts-nameof/compare/2.0.0...3.0.0)
+
+- Rewrite project to use [@typescript-nameof/nameof](https://github.com/typescript-nameof/nameof) ([#110])
+
+[#110]: https://github.com/Shinigami92/vite-plugin-ts-nameof/pull/110
 
 # 2.0.0
 

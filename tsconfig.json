@@ -9,6 +9,7 @@
     "strict": true,
     "noEmit": true,
     "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true
   }
 }
