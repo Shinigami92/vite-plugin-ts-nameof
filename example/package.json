@@ -10,12 +10,12 @@
     "vue": "^3.4.19"
   },
   "devDependencies": {
-    "@typescript-nameof/common-types": "~0.0.7",
-    "@typescript-nameof/types": "~0.0.7",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/compiler-sfc": "^3.4.19",
+    "@typescript-nameof/common-types": "~0.0.11",
+    "@typescript-nameof/types": "~0.0.11",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/compiler-sfc": "^3.5.12",
     "typescript": "~5.3.3",
-    "vite": "^5.1.4",
+    "vite": "^5.4.10",
     "vite-plugin-ts-nameof": "link:../"
   }
 }
