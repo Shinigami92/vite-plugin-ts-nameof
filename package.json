@@ -69,12 +69,12 @@
     "rimraf": "~5.0.5",
     "tsup": "~8.0.2",
     "typescript": "~5.3.3",
-    "vite": "~5.1.4"
+    "vite": "~6.4.0"
   },
   "peerDependencies": {
     "@typescript-nameof/common-types": "^0.0.7",
     "@typescript-nameof/types": "^0.0.7",
-    "vite": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
+    "vite": "^6.4.2 ^6.4.2 ^6.4.2 ^6.4.2"
   },
   "packageManager": "pnpm@8.15.4",
   "engines": {
